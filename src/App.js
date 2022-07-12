@@ -3,7 +3,7 @@ import React from "react";
 import { About, Footer, Header, Skills, Testimonials, Work } from "./container";
 // Import Components
 import { Navbar } from "./components";
-// Genral Styles
+// General Styles
 import "./App.scss";
 
 const App = () => {

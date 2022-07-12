@@ -34,8 +34,10 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import waving_hand from "../assets/waving-hand.png";
 
 export default {
+  waving_hand,
   email,
   mobile,
   api,
