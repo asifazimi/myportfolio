@@ -16,11 +16,11 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         {links.map((link) => {
-          const { id, url, text } = link;
+          const { id, text } = link;
           return (
             <li key={id} className="app__flex p-text">
               <div />
-              <a href={url}>{text}</a>
+              <a href={`#${text}`}>{text}</a>
             </li>
           );
         })}
@@ -34,10 +34,10 @@ const Navbar = () => {
             <HiX onClick={() => setToggle(false)} />
             <ul>
               {links.map((link) => {
-                const { id, url, text } = link;
+                const { id, text } = link;
                 return (
                   <li key={id} className="">
-                    <a href={url} onClick={() => setToggle(false)}>
+                    <a href={`#${text}`} onClick={() => setToggle(false)}>
                       {text}
                     </a>
                   </li>
