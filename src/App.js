@@ -1,6 +1,6 @@
 import React from "react";
 // Import Container
-import { About, Footer, Header, Skills, Testimonials, Work } from "./container";
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
 // Import Components
 import { Navbar } from "./components";
 // General Styles
@@ -14,7 +14,7 @@ const App = () => {
       <About />
       <Work />
       <Skills />
-      <Testimonials />
+      <Testimonial />
       <Footer />
     </div>
   );

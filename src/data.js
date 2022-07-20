@@ -19,7 +19,7 @@ export const links = [
   },
   {
     id: 4,
-    text: "testimonials",
+    text: "testimonial",
   },
   {
     id: 5,
